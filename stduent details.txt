@@ -1,0 +1,22 @@
+begin
+string studentname,email,college,city
+number marks,mobile
+print("enter the student name")
+input studentname
+ print("enter the student email")
+input email
+ print("enter the student college")
+input college
+ print("enter the student city")
+input city
+ print("enter the student marks")
+input marks
+ print("enter the student mobile number")
+input mobile
+print("student name:",studentname)
+print("student email:",email)
+print("student college:",collge)
+print("student city:",city)
+print("student marks:",marks)
+print("student mobile number:",mobile)
+end

@@ -1,0 +1,37 @@
+begin
+number pm,im,em,totalscore
+print("enter the project marks")
+input pm
+print("enter the internal marks")
+input im
+print("enter the external marks")
+input em
+if(pm>=50&&im>=50&&em>=50)
+{
+totalscore=(pm*70)/100+(em*20)/100+(im*10)/100
+}
+if(totalscore>=90)
+{
+print("A")}
+else if(totalscore>=70&&totalscore<90)
+{
+print("B")
+}
+else{
+print("C")
+}
+else
+{
+ if(pm<50)
+{
+print("failed in project",pm)
+}
+if(em<50)
+{
+print("failed in external",em)
+}
+if(im<50)
+{
+print("failed in internal",im)
+}
+end

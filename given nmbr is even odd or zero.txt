@@ -1,0 +1,15 @@
+begin
+number num1
+print("enter the number to check its +ve or -ve or zero")
+input num1
+if (num1<0)
+{
+print("num1 is negative")
+}
+elseif(num1>0)
+{
+print("num1 is positive")
+}
+else{
+print("num1 is zero")
+end

@@ -1,0 +1,15 @@
+begin
+number num1,num2,sum,sub,div,mul
+print("enter the num1")
+input num1
+print("enter the num2")
+input num2
+sum=num1+num2
+print("addition:",sum)
+sub=num1-num2
+print("subtraction:",sub)
+div=num1/num2
+print("division:",div)
+mul=num1*num2
+print("multiplication:",mul)
+end

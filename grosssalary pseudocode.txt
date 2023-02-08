@@ -1,0 +1,9 @@
+begin
+number bs,hra,da,gs
+print("enter bs")
+input bs
+hra=(67*bs)/100
+da=(89*bs)/100
+gs=bs+hra+da
+print("grosssalary:",gs)
+end

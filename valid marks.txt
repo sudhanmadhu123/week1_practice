@@ -1,0 +1,10 @@
+begin
+number marks
+print("enter marks")
+input marks
+if(marks>=0&&marks<=100)
+{
+print("valid")}
+else{
+print("invalid")}
+end

@@ -1,0 +1,14 @@
+begin
+number num1,num2
+print("enter the num1")
+input num1
+print("enter the num2")
+input num2
+if num1>num2
+{
+print("num1 is bigger")
+}
+else{
+print("num2 is bigger")
+}
+end

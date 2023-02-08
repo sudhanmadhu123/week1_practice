@@ -1,0 +1,22 @@
+begin
+number amount n1,n2,n3
+print("enter the amount need to be withdrawn")
+input amount
+if(amount%100)
+{
+if(amount>=500)
+{
+n1=amount/500
+amount=amount%500
+}
+else if(amount>=200)
+{
+n2=amount/200
+amount=amount%200
+else if(amount>=100)
+n3=amount/100
+}
+else{
+print("invalid amount")
+}
+end
