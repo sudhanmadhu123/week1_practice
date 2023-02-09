@@ -1,0 +1,12 @@
+begin
+number num=1,even=0,odd=0
+while num<=10
+if n%2==0
+even=even+num
+num=num+1
+else
+odd=odd+num
+num=num+1
+print("sum of even number is:",even)
+print("sum of odd number is :",odd)
+end
