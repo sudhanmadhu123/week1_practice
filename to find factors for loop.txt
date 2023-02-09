@@ -1,0 +1,13 @@
+begin
+number num,i
+print("enter number to find factors")
+input num
+
+for(i=1;i<=num/2;i++)
+{
+if(num%i==0)
+{
+prit(i)
+}
+}
+end
