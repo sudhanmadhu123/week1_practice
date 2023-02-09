@@ -1,0 +1,15 @@
+begin
+number num, i=1
+print("enter number to find factor")
+input num
+
+while(i<=num/2)
+{
+if(num%i==0)
+{
+print(i)
+}
+i=i+1
+}
+
+end
